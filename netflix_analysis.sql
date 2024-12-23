@@ -85,7 +85,7 @@ GROUP BY new_genre
 ORDER BY total_content DESC;
 
 
--- 10. Find each year the monthly average number of contents released by India on netflix. 
+-- 10. Find each year the monthly number of contents released by India on netflix. 
 SELECT 
 	year,
 	TO_CHAR(TO_DATE(month || ' 1', 'MM DD'), 'Month') AS month_name,
